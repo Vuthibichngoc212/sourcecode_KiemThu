@@ -1,0 +1,478 @@
+{
+  "userAccount": [
+    {
+      "id": 1,
+      "name": "Nguyễn Đỗ Cao Sơn",
+      "gender": "Nam",
+      "email": "sonndc1808@gmail.com",
+      "dateBirth": "24/02/1995",
+      "address": {
+        "street": "Hoàng Cầu, Q.Đống Đa",
+        "city": "Ha Noi"
+      },
+      "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/2/666385/11.jpg",
+      "phone": "0938102823"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Đình Tịnh",
+      "gender": "Nam",
+      "email": "tinhnd@gmail.com",
+      "dateBirth": "12/05/1998",
+      "address": {
+        "street": "11 Thái Hà, Q.Đống Đa",
+        "city": "Ha Noi"
+      },
+      "image": "https://tc.cdnchinhphu.vn/Uploaded/phanthugiang/2020_03_05/hhh.jpg",
+      "phone": "+84 123456788"
+    },
+    {
+      "id": 3,
+      "name": "Trịnh Sơn Hà",
+      "gender": "Nam",
+      "email": "hats180801@gmail.com",
+      "dateBirth": "25/08/2001",
+      "address": {
+        "street": "99 Xã Đàn, Q.Đống Đa",
+        "city": "Ha Noi"
+      },
+      "image": "data:image/jpeg;base64,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",
+      "phone": "+84 918274651"
+    },
+    {
+      "id": 4,
+      "name": "Hà Kiều Anh",
+      "gender": "Nữ",
+      "email": "hkanh1102@gmail.com",
+      "dateBirth": "11/01/1999",
+      "address": {
+        "street": "96 Định Công, Q.Hoàng Mai",
+        "city": "Ha Noi"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CeBS1Vq1YO9j79ogcYYl18t6okAsSuIqBA&usqp=CAU",
+      "phone": "+84 368293745"
+    }
+  ],
+  "employeeAccount": [
+    {
+      "id": 1,
+      "name": "Phùng Tiến Đạt",
+      "gender": "Nam",
+      "email": "datpt@gmail.com",
+      "dateBirth": "24/02/2000",
+      "position": "Marketing",
+      "phone": "+84 938102823"
+    },
+    {
+      "id": 2,
+      "name": "Dương Hoàng Hiếu",
+      "gender": "Nam",
+      "email": "hieudh@gmail.com",
+      "dateBirth": "25/07/1998",
+      "position": "Seller",
+      "phone": "+84 123456788"
+    },
+    {
+      "id": 3,
+      "name": "Nguyễn Trường Giang",
+      "gender": "Nam",
+      "email": "giangnt@gmail.com",
+      "dateBirth": "22/08/2001",
+      "position": "Seller",
+      "phone": "+84 948083535"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Tỏi Xay Kitchen (Hộp 100 Gr)",
+      "body": {
+        "head": "Tỏi là một loại gia vị quen thuộc trong căn bếp của bạn. Tuy nhiên, tỏi không chỉ giúp cho những món ăn trở nên thơm ngon, hấp dẫn hơn mà còn có tác dụng trong việc phòng và điều trị một số bệnh. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về công dụng của tỏi đối với sức khỏe.",
+        "content": "Theo các chuyên gia về dinh dưỡng, tỏi có chứa protein, carbohydrates, calo và một số dưỡng chất quan trọng khác như vitamin B, sắt, magie, canxi, kali, mangan, photpho Bên cạnh đó, hợp chất hữu cơ sulfur và glycosides được cho là thành phần công hiệu chính của tỏi. Loại thực phẩm này cũng có hàm lượng cao germanium và selen khá cao, trong đó lượng germanium trong tỏi được ước tính cao hơn so với nhân sâm hay trà xanh Đặc biệt, Allicin được cho là hoạt chất mạnh nhất và quan trọng nhất của tỏi. Nhưng bạn cần biết rằng, trong củ tỏi sống allicin chưa tồn tại. Tiền thân của Allicin là Alliin. Phải đến khi bạn nghiền nát hoặc đập dập củ tỏi, kích thích enzym alinase hoạt động thì Allicin có trong tỏi sống mới biến thành Allicin và có hoạt tính kháng sinh rất tốt."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/toi_xay_4bd4284a234a4b119cf0ef3959247f79_master.png",
+      "quantity": 100,
+      "price": 10,
+      "idPrice": 0,
+      "type": "juiceFresh",
+      "discount": 20,
+      "brand": "VietNam",
+      "idBrand": "0"
+    },
+    {
+      "id": 2,
+      "title": "Thịt Đùi Heo Meat Master 400g (Khay)",
+      "body": {
+        "head": "Ba Rọi Heo hay còn gọi là thịt ba chỉ, nằm ở phần thịt bụng của heo, có lớp thịt và lớp mỡ xen kẽ đẹp mắt. Với hương vị thịt béo hài hòa đặc trưng, thịt ba rọi đặc biệt được ưa chuộng để chế biến nhiều món ăn khác nhau như luộc, chiên, nướng đều phù hợp.",
+        "content": "Phương pháp sản xuất: Heo được nuôi theo quy trình khép kín từ heo ông bà đến heo bố mẹ, heo con và heo thịt thương phẩm. Thức ăn là ngũ cốc được lên men vi sinh E.M công nghệ Nhật Bản. Trang trại hoàn toàn kiểm soát được nguồn thức ăn, chất lượng con giống, quy trình nuôi và chất lượng thịt. Heo được giết mổ trong môi trường lạnh và vận chuyển thịt tươi về cửa hàng mỗi ngày. Heo tươi được cửa hàng bảo quản đúng nhiệt độ (20 độ C – 40 độ C) để không bị nhiễm vi sinh."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/ba_roi_heo_4de6644e10244b75a09a540e39029ac2_799f6bf93f9c436da841a50486170291_master.jpg",
+      "price": 127.5,
+      "idPrice": 2,
+      "quantity": 100,
+      "type": "meatFresh",
+      "discount": 30,
+      "brand": "VietNam",
+      "idBrand": "0"
+    },
+    {
+      "id": 3,
+      "title": "Tảo Jaban BBQ 40G*50",
+      "body": {
+        "head": "Tỏi là một loại gia vị quen thuộc trong căn bếp của bạn. Tuy nhiên, tỏi không chỉ giúp cho những món ăn trở nên thơm ngon, hấp dẫn hơn mà còn có tác dụng trong việc phòng và điều trị một số bệnh. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về công dụng của tỏi đối với sức khỏe.",
+        "content": "Theo các chuyên gia về dinh dưỡng, tỏi có chứa protein, carbohydrates, calo và một số dưỡng chất quan trọng khác như vitamin B, sắt, magie, canxi, kali, mangan, photpho Bên cạnh đó, hợp chất hữu cơ sulfur và glycosides được cho là thành phần công hiệu chính của tỏi. Loại thực phẩm này cũng có hàm lượng cao germanium và selen khá cao, trong đó lượng germanium trong tỏi được ước tính cao hơn so với nhân sâm hay trà xanh Đặc biệt, Allicin được cho là hoạt chất mạnh nhất và quan trọng nhất của tỏi. Nhưng bạn cần biết rằng, trong củ tỏi sống allicin chưa tồn tại. Tiền thân của Allicin là Alliin. Phải đến khi bạn nghiền nát hoặc đập dập củ tỏi, kích thích enzym alinase hoạt động thì Allicin có trong tỏi sống mới biến thành Allicin và có hoạt tính kháng sinh rất tốt."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/tao_jaban_bbq_40g_50_c95b25e4505c47bca2c3127d15e4e250_large.png",
+      "price": 50,
+      "idPrice": 1,
+      "quantity": 200,
+      "type": "seaFoodFresh",
+      "discount": 10,
+      "brand": "VietNam",
+      "idBrand": "0"
+    },
+    {
+      "id": 4,
+      "title": "Tỏi Xay Kitchen (Hộp 100Gr)",
+      "body": {
+        "head": "Tỏi là một loại gia vị quen thuộc trong căn bếp của bạn. Tuy nhiên, tỏi không chỉ giúp cho những món ăn trở nên thơm ngon, hấp dẫn hơn mà còn có tác dụng trong việc phòng và điều trị một số bệnh. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về công dụng của tỏi đối với sức khỏe.",
+        "content": "Theo các chuyên gia về dinh dưỡng, tỏi có chứa protein, carbohydrates, calo và một số dưỡng chất quan trọng khác như vitamin B, sắt, magie, canxi, kali, mangan, photpho Bên cạnh đó, hợp chất hữu cơ sulfur và glycosides được cho là thành phần công hiệu chính của tỏi. Loại thực phẩm này cũng có hàm lượng cao germanium và selen khá cao, trong đó lượng germanium trong tỏi được ước tính cao hơn so với nhân sâm hay trà xanh Đặc biệt, Allicin được cho là hoạt chất mạnh nhất và quan trọng nhất của tỏi. Nhưng bạn cần biết rằng, trong củ tỏi sống allicin chưa tồn tại. Tiền thân của Allicin là Alliin. Phải đến khi bạn nghiền nát hoặc đập dập củ tỏi, kích thích enzym alinase hoạt động thì Allicin có trong tỏi sống mới biến thành Allicin và có hoạt tính kháng sinh rất tốt."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/toi_xay_4bd4284a234a4b119cf0ef3959247f79_master.png",
+      "price": 10,
+      "idPrice": 0,
+      "quantity": 300,
+      "type": "juiceFresh",
+      "discount": 20,
+      "brand": "VietNam",
+      "idBrand": "0"
+    },
+    {
+      "id": 5,
+      "title": "Thịt Đùi Heo Meat Master 400g (Khay)",
+      "body": {
+        "head": "Ba Rọi Heo hay còn gọi là thịt ba chỉ, nằm ở phần thịt bụng của heo, có lớp thịt và lớp mỡ xen kẽ đẹp mắt. Với hương vị thịt béo hài hòa đặc trưng, thịt ba rọi đặc biệt được ưa chuộng để chế biến nhiều món ăn khác nhau như luộc, chiên, nướng đều phù hợp.",
+        "content": "Phương pháp sản xuất: Heo được nuôi theo quy trình khép kín từ heo ông bà đến heo bố mẹ, heo con và heo thịt thương phẩm. Thức ăn là ngũ cốc được lên men vi sinh E.M công nghệ Nhật Bản. Trang trại hoàn toàn kiểm soát được nguồn thức ăn, chất lượng con giống, quy trình nuôi và chất lượng thịt. Heo được giết mổ trong môi trường lạnh và vận chuyển thịt tươi về cửa hàng mỗi ngày. Heo tươi được cửa hàng bảo quản đúng nhiệt độ (20 độ C – 40 độ C) để không bị nhiễm vi sinh."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/ba_roi_heo_4de6644e10244b75a09a540e39029ac2_799f6bf93f9c436da841a50486170291_master.jpg",
+      "price": 127.5,
+      "idPrice": 2,
+      "quantity": 400,
+      "type": "meatFresh",
+      "discount": 30,
+      "brand": "VietNam",
+      "idBrand": "0"
+    },
+    {
+      "id": 6,
+      "title": "Tảo Jaban BBQ 40G*50",
+      "body": {
+        "head": "Ba Rọi Heo hay còn gọi là thịt ba chỉ, nằm ở phần thịt bụng của heo, có lớp thịt và lớp mỡ xen kẽ đẹp mắt. Với hương vị thịt béo hài hòa đặc trưng, thịt ba rọi đặc biệt được ưa chuộng để chế biến nhiều món ăn khác nhau như luộc, chiên, nướng đều phù hợp.",
+        "content": "Phương pháp sản xuất: Heo được nuôi theo quy trình khép kín từ heo ông bà đến heo bố mẹ, heo con và heo thịt thương phẩm. Thức ăn là ngũ cốc được lên men vi sinh E.M công nghệ Nhật Bản. Trang trại hoàn toàn kiểm soát được nguồn thức ăn, chất lượng con giống, quy trình nuôi và chất lượng thịt. Heo được giết mổ trong môi trường lạnh và vận chuyển thịt tươi về cửa hàng mỗi ngày. Heo tươi được cửa hàng bảo quản đúng nhiệt độ (20 độ C – 40 độ C) để không bị nhiễm vi sinh."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/tao_jaban_bbq_40g_50_c95b25e4505c47bca2c3127d15e4e250_large.png",
+      "price": 50,
+      "idPrice": 1,
+      "quantity": 200,
+      "type": "seaFoodFresh",
+      "discount": 10,
+      "brand": "VietNam",
+      "idBrand": "0"
+    },
+    {
+      "id": 7,
+      "title": "Sản phẩm 7 ",
+      "body": {
+        "head": "Tỏi là một loại gia vị quen thuộc trong căn bếp của bạn. Tuy nhiên, tỏi không chỉ giúp cho những món ăn trở nên thơm ngon, hấp dẫn hơn mà còn có tác dụng trong việc phòng và điều trị một số bệnh. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về công dụng của tỏi đối với sức khỏe.",
+        "content": "Theo các chuyên gia về dinh dưỡng, tỏi có chứa protein, carbohydrates, calo và một số dưỡng chất quan trọng khác như vitamin B, sắt, magie, canxi, kali, mangan, photpho Bên cạnh đó, hợp chất hữu cơ sulfur và glycosides được cho là thành phần công hiệu chính của tỏi. Loại thực phẩm này cũng có hàm lượng cao germanium và selen khá cao, trong đó lượng germanium trong tỏi được ước tính cao hơn so với nhân sâm hay trà xanh Đặc biệt, Allicin được cho là hoạt chất mạnh nhất và quan trọng nhất của tỏi. Nhưng bạn cần biết rằng, trong củ tỏi sống allicin chưa tồn tại. Tiền thân của Allicin là Alliin. Phải đến khi bạn nghiền nát hoặc đập dập củ tỏi, kích thích enzym alinase hoạt động thì Allicin có trong tỏi sống mới biến thành Allicin và có hoạt tính kháng sinh rất tốt."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/toi_xay_4bd4284a234a4b119cf0ef3959247f79_master.png",
+      "quantity": 100,
+      "price": 10,
+      "idPrice": 0,
+      "type": "juiceFresh",
+      "discount": "-20%",
+      "brand": "VietNam",
+      "idBrand": "0"
+    },
+    {
+      "id": 8,
+      "title": "Sản phẩm 8",
+      "body": {
+        "head": "Ba Rọi Heo hay còn gọi là thịt ba chỉ, nằm ở phần thịt bụng của heo, có lớp thịt và lớp mỡ xen kẽ đẹp mắt. Với hương vị thịt béo hài hòa đặc trưng, thịt ba rọi đặc biệt được ưa chuộng để chế biến nhiều món ăn khác nhau như luộc, chiên, nướng đều phù hợp.",
+        "content": "Phương pháp sản xuất: Heo được nuôi theo quy trình khép kín từ heo ông bà đến heo bố mẹ, heo con và heo thịt thương phẩm. Thức ăn là ngũ cốc được lên men vi sinh E.M công nghệ Nhật Bản. Trang trại hoàn toàn kiểm soát được nguồn thức ăn, chất lượng con giống, quy trình nuôi và chất lượng thịt. Heo được giết mổ trong môi trường lạnh và vận chuyển thịt tươi về cửa hàng mỗi ngày. Heo tươi được cửa hàng bảo quản đúng nhiệt độ (20 độ C – 40 độ C) để không bị nhiễm vi sinh."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/ba_roi_heo_4de6644e10244b75a09a540e39029ac2_799f6bf93f9c436da841a50486170291_master.jpg",
+      "price": 127.5,
+      "idPrice": 2,
+      "quantity": 100,
+      "type": "meatFresh",
+      "discount": 30,
+      "brand": "USA",
+      "idBrand": "1"
+    },
+    {
+      "id": 9,
+      "title": "Sản phẩm 9",
+      "body": {
+        "head": "Tỏi là một loại gia vị quen thuộc trong căn bếp của bạn. Tuy nhiên, tỏi không chỉ giúp cho những món ăn trở nên thơm ngon, hấp dẫn hơn mà còn có tác dụng trong việc phòng và điều trị một số bệnh. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về công dụng của tỏi đối với sức khỏe.",
+        "content": "Theo các chuyên gia về dinh dưỡng, tỏi có chứa protein, carbohydrates, calo và một số dưỡng chất quan trọng khác như vitamin B, sắt, magie, canxi, kali, mangan, photpho Bên cạnh đó, hợp chất hữu cơ sulfur và glycosides được cho là thành phần công hiệu chính của tỏi. Loại thực phẩm này cũng có hàm lượng cao germanium và selen khá cao, trong đó lượng germanium trong tỏi được ước tính cao hơn so với nhân sâm hay trà xanh Đặc biệt, Allicin được cho là hoạt chất mạnh nhất và quan trọng nhất của tỏi. Nhưng bạn cần biết rằng, trong củ tỏi sống allicin chưa tồn tại. Tiền thân của Allicin là Alliin. Phải đến khi bạn nghiền nát hoặc đập dập củ tỏi, kích thích enzym alinase hoạt động thì Allicin có trong tỏi sống mới biến thành Allicin và có hoạt tính kháng sinh rất tốt."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/tao_jaban_bbq_40g_50_c95b25e4505c47bca2c3127d15e4e250_large.png",
+      "price": 50,
+      "idPrice": 1,
+      "quantity": 200,
+      "type": "juiceFresh",
+      "discount": 10,
+      "brand": "USA",
+      "idBrand": "1"
+    },
+    {
+      "id": 10,
+      "title": "Sản phẩm 10",
+      "body": {
+        "head": "Tỏi là một loại gia vị quen thuộc trong căn bếp của bạn. Tuy nhiên, tỏi không chỉ giúp cho những món ăn trở nên thơm ngon, hấp dẫn hơn mà còn có tác dụng trong việc phòng và điều trị một số bệnh. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về công dụng của tỏi đối với sức khỏe.",
+        "content": "Theo các chuyên gia về dinh dưỡng, tỏi có chứa protein, carbohydrates, calo và một số dưỡng chất quan trọng khác như vitamin B, sắt, magie, canxi, kali, mangan, photpho Bên cạnh đó, hợp chất hữu cơ sulfur và glycosides được cho là thành phần công hiệu chính của tỏi. Loại thực phẩm này cũng có hàm lượng cao germanium và selen khá cao, trong đó lượng germanium trong tỏi được ước tính cao hơn so với nhân sâm hay trà xanh Đặc biệt, Allicin được cho là hoạt chất mạnh nhất và quan trọng nhất của tỏi. Nhưng bạn cần biết rằng, trong củ tỏi sống allicin chưa tồn tại. Tiền thân của Allicin là Alliin. Phải đến khi bạn nghiền nát hoặc đập dập củ tỏi, kích thích enzym alinase hoạt động thì Allicin có trong tỏi sống mới biến thành Allicin và có hoạt tính kháng sinh rất tốt."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/toi_xay_4bd4284a234a4b119cf0ef3959247f79_master.png",
+      "price": 10,
+      "idPrice": 0,
+      "quantity": 300,
+      "type": "juiceFresh",
+      "discount": 20,
+      "brand": "USA",
+      "idBrand": "1"
+    },
+    {
+      "id": 11,
+      "title": "Sản phẩm 11",
+      "body": {
+        "head": "Ba Rọi Heo hay còn gọi là thịt ba chỉ, nằm ở phần thịt bụng của heo, có lớp thịt và lớp mỡ xen kẽ đẹp mắt. Với hương vị thịt béo hài hòa đặc trưng, thịt ba rọi đặc biệt được ưa chuộng để chế biến nhiều món ăn khác nhau như luộc, chiên, nướng đều phù hợp.",
+        "content": "Phương pháp sản xuất: Heo được nuôi theo quy trình khép kín từ heo ông bà đến heo bố mẹ, heo con và heo thịt thương phẩm. Thức ăn là ngũ cốc được lên men vi sinh E.M công nghệ Nhật Bản. Trang trại hoàn toàn kiểm soát được nguồn thức ăn, chất lượng con giống, quy trình nuôi và chất lượng thịt. Heo được giết mổ trong môi trường lạnh và vận chuyển thịt tươi về cửa hàng mỗi ngày. Heo tươi được cửa hàng bảo quản đúng nhiệt độ (20 độ C – 40 độ C) để không bị nhiễm vi sinh."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/ba_roi_heo_4de6644e10244b75a09a540e39029ac2_799f6bf93f9c436da841a50486170291_master.jpg",
+      "price": 127.5,
+      "idPrice": 2,
+      "quantity": 400,
+      "type": "meatFresh",
+      "discount": 30,
+      "brand": "USA",
+      "idBrand": "1"
+    },
+    {
+      "id": 12,
+      "title": "Sản phẩm 12",
+      "body": {
+        "head": "Ba Rọi Heo hay còn gọi là thịt ba chỉ, nằm ở phần thịt bụng của heo, có lớp thịt và lớp mỡ xen kẽ đẹp mắt. Với hương vị thịt béo hài hòa đặc trưng, thịt ba rọi đặc biệt được ưa chuộng để chế biến nhiều món ăn khác nhau như luộc, chiên, nướng đều phù hợp.",
+        "content": "Phương pháp sản xuất: Heo được nuôi theo quy trình khép kín từ heo ông bà đến heo bố mẹ, heo con và heo thịt thương phẩm. Thức ăn là ngũ cốc được lên men vi sinh E.M công nghệ Nhật Bản. Trang trại hoàn toàn kiểm soát được nguồn thức ăn, chất lượng con giống, quy trình nuôi và chất lượng thịt. Heo được giết mổ trong môi trường lạnh và vận chuyển thịt tươi về cửa hàng mỗi ngày. Heo tươi được cửa hàng bảo quản đúng nhiệt độ (20 độ C – 40 độ C) để không bị nhiễm vi sinh."
+      },
+      "image": "https://product.hstatic.net/200000460455/product/tao_jaban_bbq_40g_50_c95b25e4505c47bca2c3127d15e4e250_large.png",
+      "price": 50,
+      "idPrice": 1,
+      "quantity": 200,
+      "type": "meatFresh",
+      "discount": 10,
+      "brand": "Other",
+      "idBrand": "2"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "image": "https://file.hstatic.net/200000460455/file/fruit_26457412cf6f43c9ae38e70562c3c071.png",
+      "title": "Trái Cây Tươi",
+      "type": "juiceFresh"
+    },
+    {
+      "id": 2,
+      "image": "https://file.hstatic.net/200000460455/file/meats_acf6cdd07dc447318bf93d52317a1d6a.png",
+      "title": "Thịt Các Loại",
+      "type": "meatFresh"
+    },
+    {
+      "id": 3,
+      "image": "https://file.hstatic.net/200000460455/file/seafood_e0c737bd6fde489e91014e61cdf54b32.png",
+      "title": "Hải Sản Tươi Sống",
+      "type": "seaFoodFresh"
+    },
+    {
+      "id": 4,
+      "image": "https://file.hstatic.net/200000460455/file/veg_2bfc8eb1a0a64cada2d72dca10094f2d.png",
+      "title": "Rau Củ Các Loại"
+    }
+  ],
+  "recipe": [
+    {
+      "id": 1,
+      "title": "4 Cách chế biến hoành thánh ngon lành cho cả nhà",
+      "dateTime": "10/02/2024",
+      "image": "https://scontent.xx.fbcdn.net/v/t1.15752-9/414162956_753998089479052_2357561459572480958_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=510075&_nc_eui2=AeHALxpYLRyoUwaZxn8Lgd5J8-RkdVbU5Pfz5GR1VtTk90K5P6y8bTVLd536IpHKxja8T6bCr5V3UTkmRwO9Q6Yp&_nc_ohc=TmSEK2Sf92oAX9vMkXn&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT0FOrpi8IYTrN9_sQtZea_FMgreTB-7hfgslTCuJ1hDQ&oe=6604BDD1",
+      "imageCaption": "https://lh6.googleusercontent.com/DfxBm82RHOpvYnqYObleNDPlmhK19qHD-gCltdGxwn7lJk8LquL8RQgnf_2ihskMjP5Y1A0nDv7uFEZK88BjmtoFQNxXxXiLIWbg8rVIq7-eZMlVbh5Uogp3pJibkEOkoPJXffco",
+      "imageTitle": "https://lh5.googleusercontent.com/GwNIs4ZttGhD3wawLwZWwfNQ6pIb_YiWguvUxoKDwWh2OqILE9LKPNA39CgauVw9pdu2fkAc8y6yXH6i8_R1C4-7eAgckpUYvPYcXYLvrXmMzCVl5IqiffyjXdZBiEgn64hPj4sQ",
+      "imageBody": "https://lh5.googleusercontent.com/L7pBL9XgOu8MXiij4qefuDS2qyPxNy_2nQ-he17QB6185y70OPCFs22k09AEnxQXeADtrwF353iVYsfGGNoX101VZdt0D5BYTLVaYS784jtM33kQKpT8ptMXs2fpJ-COGIFtTTWc",
+      "body": {
+        "subCaption": "Chỉ một phần hoành thánh được gói sẵn, bạn đã biết cách để chế biến hoành thánh ngon tiện mà không mất nhiều thời gian chưa? Để SoFood gợi ý cho bạn những món ngon từ hoành thánh nhé.",
+        "subTitle": "Hoành thánh hấp là cách đơn giản nhất để thưởng thức món ăn này mà vẫn giữ trọn vị ngọt từ thịt và lớp vỏ hoành thánh mềm dai nhè nhẹ.\n\nLót một lớp lá chuối đã rửa sạch vào xửng hấp. Cho hoành thánh Bếp 3S lên trên, đợi nước sôi thật sôi thì mới bỏ xửng vào để hấp hoành thánh. Thời gian hấp từ 25 - 30 phút là hoành thánh chín mà không bị khô bên trong.",
+        "subContent": "Điều làm nên sự ngon miệng của hoành thánh hấp một phần phụ thuộc vào nước chấm ngon. Pha nước tương cùng với một ít giấm đỏ và trộn đều, thêm vào một ít sa tế vào nếu có sẽ giúp cho món ăn hấp dẫn hơn.\n\nNếu bạn yêu thích lớp vỏ ngoài giòn rụm kèm lớp nhân bên trong nóng hỏi đậm đà thì không thể bỏ qua cách chế biến hoành thánh này.\n\nBắt chảo lên bếp cho dầu vào chảo, đợi dầu nóng sôi thì cho hoành thánh Bếp 3S vào chiên. Trở đều để hoành thánh chín đều, khi hoành thánh có màu vàng giòn các mặt thì lấy ra để cho ráo dầu.",
+        "subDecription": "Món hoành thánh chiên ăn kèm với tương ớt hoặc tương xí muội đều rất ngon, bạn nên cẩn thận khi ăn hoành thánh chiên vì nhiệt độ từ bên trong hoành thánh có thể làm bạn bị bỏng miệng."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Giò sống là gì? Giò sống làm món gì ngon?",
+      "dateTime": "30/08/2023",
+      "image": "https://file.hstatic.net/200000460455/article/275113289_2949007505410409_3728275084714713978_n_465fcc0fc8864ba88643b3651d4f2942.png",
+      "imageCaption": "https://lh3.googleusercontent.com/RtjJBXlTeSD_jDLB8vF46kTIvRC_PJiqakiu4E0pqRfBybcL6_WtZhU_uxyCEmMg23eZr9HLRq3T4WeoFMzLmvAB03MJ6qS0RBKf826tbN6yzMUOGAgtUs2j4jekdDgiVVB0_hB3",
+      "imageTitle": "https://lh3.googleusercontent.com/JOFMAVcDBj-uP-DbRo355dsBlLZfD4Vlf_7IWminHLLIKINsvVWIPoq4uWFBH6aaBqRX8QqxgRuTeCPoWx8ZjxNChnWew87yJNPEeCPenmjm_BP4RscGtXz6r0w8xCfODhg1SXGo",
+      "imageBody": "https://lh4.googleusercontent.com/NPJv8FEqZYnpi2ov77-6c8oX2Faj7gyJnOtD8oQIBk1PGTReIkb9nghZ_teUnUMhTE0fp9MHnntCzgcoz4CCqKfhXSfM7vPgKy_S5wKYC6a1CFn4cFuPwzJ_kznrfW3a6MYitt_W",
+      "body": {
+        "subCaption": "Giò sống là nguyên liệu quen thuộc trong các món ăn hằng ngày của người Việt. Nhưng vẫn có nhiều người chưa biết giò sống làm từ các nguyên liệu gì và nấu được món ăn nào ngon miệng. Cùng SoFresh Food tìm hiểu giò sống được làm ra như thế nào nhé.",
+        "subTitle": "Giò sống có thành phần là thịt heo và mỡ heo được giã nhuyễn hoặc xay chung với nhau để tạo thành hỗn hợp dẻo, dai, mịn và dễ tạo hình. Giò sống được xem là đạt chuẩn khi có màu hồng nhạt và quyện thành một khối mịn màng, không có vân thịt hay mỡ.\n\nGiò sống được đánh giá ngon nhất là khi dùng thịt tươi, mới mổ xong, thịt còn nóng để làm món này. Khi thịt còn tươi nóng, giò sống thành phẩm sẽ giữ được độ thơm của thịt và độ dai giòn đặc trưng hòa quyện với các gia vị nêm nếm.",
+        "subContent": "Giò sống là một nguyên liệu đơn giản, dễ chế biến và hợp khẩu vị của nhiều người nên thường được dùng để làm các món ăn quen thuộc như:\nBún mọc\n\nMón ăn quen thuộc xuất hiện khắp các đường phố tại Sài Gòn. Là món ăn sáng yêu thích của nhiều người, bún mọc có phần nước dùng trong vắt ngọt thanh từ xương heo. Làm nổi bật cho món ăn đó là phần mọc được làm từ giò sống vo viên được trộn với nấm mèo giòn sần sật kèm với các gia vị vừa ăn.\n\nĐể làm món ăn này tại nhà, bạn có thể mua kèm Nước hầm xương từ Bếp 3S để bớt đi thời gian hầm nước xương. Bạn chỉ cần cho nước hầm xương vào nồi hâm nóng và cho viên mọc vào, vậy là đã hoàn thành món bún mọc cực đơn giản chưa đến 10 phút.",
+        "subDecription": "Qua bài viết, SoFresh Food chúc bạn có thể chọn được một phần giò sống thật ngon để nấu các món ăn ưng ý cho người thân và gia đình nhé."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Đổi vị món quen cùng thịt heo cốt lết",
+      "dateTime": "15/09/2023",
+      "image": "https://lh3.googleusercontent.com/RkvZe_B42s9o3npXW5tI3tBkEoTz-Zg7V0zktFkcY1s3pHgfGblpxMWnpXFVcx9DiQQspObYtb5ykoa9qtA1ofIggFtC188v2VufJCX-Wxje6X2OI9KHdy9T5qrllO1BwX6HEZec",
+      "imageCaption": "https://lh3.googleusercontent.com/RkvZe_B42s9o3npXW5tI3tBkEoTz-Zg7V0zktFkcY1s3pHgfGblpxMWnpXFVcx9DiQQspObYtb5ykoa9qtA1ofIggFtC188v2VufJCX-Wxje6X2OI9KHdy9T5qrllO1BwX6HEZec",
+      "imageTitle": "https://lh3.googleusercontent.com/RkvZe_B42s9o3npXW5tI3tBkEoTz-Zg7V0zktFkcY1s3pHgfGblpxMWnpXFVcx9DiQQspObYtb5ykoa9qtA1ofIggFtC188v2VufJCX-Wxje6X2OI9KHdy9T5qrllO1BwX6HEZec",
+      "imageBody": "",
+      "body": {
+        "subCaption": "Thịt cốt lết chiên xù kiểu Nhật (Tonkatsu)\nThịt heo cốt lết là phần được yêu thích của nhiều gia đình, phần thịt nhiều nạc ít mỡ nên thường được dùng để nấu các món ăn cốt lết rim, cốt lết chiên, cốt lết ram,... Hãy cùng SoFresh Food khám phá những món ăn mới, độc đáo hơn với thịt cốt lết nhé",
+        "subTitle": "Tonkatsu với lớp thịt mềm mọng bên trong cùng với vỏ ngoài chiên xù giòn tan, thơm phức. Làm thử món này cho bé yêu nhà bạn, đảm bảo bé sẽ rất thích.\n\nNguyên liệu:\n- 2 miếng thịt cốt lết có độ dày gần 1.5cm\n- Tiêu xay\n- Bột mì\n- 1 quả trứng gà\n- Dầu ăn\n- Bột chiên xù\n- Xốt Tonkatsu\n\nCách làm:\nBước 1: Cắt thịt thành miếng vừa ăn. Dùng dụng cụ đập thịt đập nhẹ lên bề mặt thịt cho miếng thịt mỏng hơn. Nếu không có dụng cụ chuyên dụng, bạn có thể dùng sống dao để đập thịt. Việc đập thịt giúp thịt mềm hơn và dễ thấm gia vị hơn.\nBước 2: Ướp thịt với một chút muối và tiêu cho cả hai bề mặt. Cho thịt vào bát bột mì và áo thịt để thấm đều hai mặt.\nBước 3: Đập trứng và cho ½ muỗng canh dầu vào một cái tô lớn, đánh đều tay. Nhúng thịt vào hỗn hợp trứng và dầu.\nBước 4: Áo thịt với bột chiên xù cho bột dính chặt các mặt.\nBước 5: Cho dầu vào một cái chảo, làm nóng dầu đến nhiệt độ 180 độ C. Cho miếng thịt vào chiên 1 phút cho mỗi bên.\nBước 6: Lấy miếng thịt đã chiên ra để trên giấy thấm dầu. Cho thịt nghỉ khoảng 10 phút. Sau đó cắt miếng thịt thành các miếng vừa ăn. Lưu ý, khi cắt thịt nên cắt dứt khoát, hạn chế đưa dao qua lại liên tục.\nBước 7: Cho Tonkatsu ra đĩa, rưới sốt lên thịt và thưởng thức. Bạn có thể dùng với cơm hoặc bắp cải bào nhuyễn đều rất ngon.",
+        "subContent": "",
+        "subDecription": ""
+      }
+    },
+    {
+      "id": 4,
+      "title": "Kombucha là gì? Tác dụng của Kombucha với sức khỏe",
+      "dateTime": "02/08/2023",
+      "image": "https://file.hstatic.net/200000460455/file/kombucha_la_gi_efe7bc02db5f4985889c366af6989735_grande.png",
+      "imageCaption": "https://file.hstatic.net/200000460455/file/kombucha_la_gi_2_1fe99228a8d24d6cab1f2b18ec5843fa_grande.png",
+      "imageTitle": "https://file.hstatic.net/200000460455/file/kombucha_la_gi_efe7bc02db5f4985889c366af6989735_grande.png",
+      "body": {
+        "subCaption": "Kombucha hiện đang là loại nước uống làm mưa làm gió trên thị trường hiện nay. Dù vậy, đây vẫn là một cái tên xa lạ đối với một số người. Nếu bạn vẫn chưa biết Kombucha là gì thì cùng SoFresh Food tìm hiểu qua bài viết dưới đây nhé.\nKombucha là gì? ",
+        "subTitle": "Kombucha có nguồn gốc từ Mãn Châu (Trung Quốc), thường được biết đến với những tên khác như trà lên men. Kombucha được sản xuất bằng cách lên men nước trà (thường là trà đen hoặc trà xanh) cùng với một lượng đường nhất định cùng với con giống SCOBY (cộng sinh của vi khuẩn nấm và nấm men).\nSCOBY là viết tắt của cụm từ Symbiotic Colony of Bacteria and Yeast (là cộng sinh của vi khuẩn và nấm men), được xem là con giống ban đầu để sử dụng trong quá trình lên men và sản xuất Kombucha. SCOBY có hình tròn, màu vàng đục, giống cao su và có mùi nhẹ như giấm.",
+        "subContent": "Kombucha hoạt động như nấm men và vi khuẩn, chúng phá vỡ carbohydrate như đường hay tinh bột sau đó chuyển hóa thành rượu, carbon dioxide và axit. Vì vậy, Kombucha thường có cồn và có một lượng nhỏ ga, mùi hương thơm nhẹ, có vị ngọt và chua như giấm. \nMùi vị đặc trưng của Kombucha thường phụ thuộc vào nhiều yếu tố nhưng chủ yếu là do thời gian lên men, loại trà sử dụng. Ngoài ra, các thành phẩn khác được thêm vào cũng ảnh hưởng đến mùi hương của Kombucha như nước ép trái cây, trái cây tươi hoặc thảo mộc.\n\nLợi ích của Kombucha đối với sức khỏe\n \nThức uống giàu lợi khuẩn Probiotics\n \nKhi còn là nguyên chất, Kombucha sản sinh ra một lượng lớn men vi sinh (lợi khuẩn Probiotics), thường được tìm thấy trong sữa chua hoặc phô mai.\n \nProbiotics là vi khuẩn có lợi, có chức năng như men vi sinh đường ruột tự nhiên trong tiêu hóa con người. Lợi khuẩn Probiotics thực hiện các nhiệm vụ quan trọng trong hệ tiêu hóa như giảm đầy hơi, tiêu diệt các nấm men Candida và phục hồi lợi khuẩn, cân bằng hệ tiêu hóa, giảm cholesterol, bổ sung enzym thường xuyên và thúc đẩy hệ miễn dịch hoạt động khỏe mạnh.\n \nTiêu diệt vi khuẩn có hại cho cơ thế\n \nKombucha được làm từ trà xanh hoặc trà đen, là những loại trà có đặc tính kháng khuẩn mạnh mẽ. Một trong các chất chính được tạo ra qua quá trình lên men Kombucha đó là axit axetic, chất này có khả năng tiêu diệt những vi khuẩn có hại. Các đặt điểm kháng khuẩn của Kombucha hoàn toàn không ảnh hưởng đến các vi khuẩn có lợi.\n \nThanh lọc cơ thể\n \nCác nghiên cứu khoa học đã chỉ ra mối quan hệ mật thiết của Kombucha đối với sức khỏe thể chất và tinh thần. Kombucha chứa các chất chống oxy hóa, hỗ trợ làm giảm gần 70% các độc tố trong gan, thanh lọc cả cơ thể. Giảm các nguy cơ mắc các bệnh nguy hiểm và thường gặp như ưng thư và tim mạch.\n \nHỗ trợ giảm cân\n \nTrong Kombucha có chứa nhiều hợp chất EGCG thường có nhiều trong trà xanh, là hợp chất giúp thúc đẩy quá trình giảm mỡ thừa trong cơ thể.\n  \nBên cạnh đó, trong Kombucha có chứa các axit axetic tự nhiên, các chất này kết hợp với các chất chống oxy hóa như EGCG sẽ đẩy nhanh quá trình giảm cân cho các chị em an toàn và hiệu quả hơn.\n ",
+        "subDecription": ""
+      }
+    }
+  ],
+  "policy": [
+    {
+      "head": "Cam kết thực phẩm “3Sạch”: Sạch từ nông trại – Sạch qua quá trình sơ chế, chế biến - Sạch đến bàn ăn.",
+      "body": "Miễn phí vận chuyển đối với đơn hàng trên 500,000VND khi đặt hàng trên website. Phí giao hàng tiêu chuẩn: 20,000VND đơn hàng dưới < 500,000VND",
+      "bottom": "Hotline hỗ trợ: 028 7300 3111 - Email: hq@3sachfood.vn"
+    }
+  ],
+  "about": [
+    {
+      "head": "Giới thiệu",
+      "title": "VỀ SoFresh",
+      "image": {
+        "imageHead": {
+          "imageItem1": "https://file.hstatic.net/200000460455/file/266378_1180d34771824d6e9864c6589fc06695.jpeg",
+          "imageItem2": "https://file.hstatic.net/200000460455/file/266380_703bf4f869574b59a2fc7912ceadf68b.jpeg"
+        },
+        "imageTitle": "https://file.hstatic.net/200000460455/file/266378_1180d34771824d6e9864c6589fc06695.jpeg",
+        "imageContent": {
+          "imagePolicy1": "https://file.hstatic.net/200000460455/file/1__1__dbe54fb0b9c64595b62f4476c52bf96a.png",
+          "imagePolicy2": "https://file.hstatic.net/200000460455/file/screen_shot_2021-03-03_at_12.17.42_128d6de92d2d4d318354bcef3f441273.png"
+        }
+      },
+      "body": {
+        "subTitle": "Được thành lập từ năm 2013, chúng tôi là chuỗi cửa hàng phân phối thực phẩm sạch đến người tiêu dùng với định hướng kinh doanh từ nông trại đến bàn ăn. Thực phẩm canh tác tự nhiên, sơ chế thô, bảo quản nghiêm ngặt và giao tới tận tay khách hàng... đó là những gì SoFresh Mart đang hướng đến. Chúng tôi mong muốn mang lại sự an tâm cho mỗi gia đình.\n\nTừ cửa hàng nhỏ bé đầu tiên chỉ 27 m2 trên đường Nguyễn Đình Chiểu, Q3, cho đến nay, đã xây dựng chuỗi hệ thống hơn 9 cửa hàng thực phẩm sạch và hai Bếp sản xuất trung tâm tại TP.HCM.\n\nChúng tôi đã và đang viết tiếp câu chuyện về một thương hiệu Việt giàu truyền thống, không ngừng chắt lọc, học hỏi và làm mới mình để trở thành thương hiệu gắn bó với nhiều thế hệ khách hàng.",
+        "subContent": "TỪ NÔNG TRẠI ĐẾN BÀN ĂN",
+        "subDescription": "Sản phẩm thịt tươi của SoFresh có nguồn gốc từ trang trại Khang Minh An, huyện Vĩnh Cửu, tỉnh Đồng Nai với Quy mô Tổng Đàn hơn 11,000 con heo/tháng và 70,000 con gà/tháng. Trang trại nuôi heo theo mô hình khép kín Tự sản xuất thức ăn, Tự sản xuất con giống, Công tác an toàn sinh học nghiêm ngặt với đội ngũ hơn 100 người gỗm bác sĩ thú y, kỹ sư chăn nuôi, thạc sĩ nghiên cứu về dinh dưỡng và giống\n\nThức ăn cho Heo được trại kiểm soát 100% và tự trộn gồm Hỗn hợp các nguyên liệu ngũ cốc: bắp hạt, đậu nành, cám gạo và các vitamin khoáng chất. Men EM (Effective Microorganism) được nhập khẩu từ Nhật Bản là tập hợp các Vi sinh vật có lợi cho đường tiêu hóa, cải thiện đường ruột giúp hấp thụ chất dinh dưỡng tốt hơn, giảm mùi hôi từ chất thải (phân) giúp Heo khỏe, ít bệnh, ít sử dụng kháng sinh.\n\nTrại đạt cấp các giấy chứng nhận gồm VietGap, Giấy Chứng nhận An Toàn Dịch Bệnh Động Vật, Chứng nhận Đủ Điều kiện tham gia “chuỗi thực phẩm an toàn” do UBND TPHCM - BQL Đề Án Chuỗi TP An Toàn cấp.",
+        "subPolicy": "GIẤY CHỨNG NHẬN VIETGAP (Phù hợp với Quy trình thực hành chăn nuôi tốt cho chăn nuôi tại Việt Nam theo quyết định số: 4653/QĐ - BNN-CN ngày 10 tháng 11 năm 2015 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn) & GIẤY CHỨNG NHẬN CHUỖI THỰC PHẨM AN TOÀN (Từ Ban Quản lý đề án Chuỗi thực phẩm An Toàn chứng nhận)"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Kevin",
+      "gender": "Nam",
+      "email": "kevin@gmail.com",
+      "dateBirth": "05/12/1999",
+      "address": "Hà Nội",
+      "position": "null",
+      "phone": "0948083535",
+      "password": "123456789",
+      "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/2/666385/11.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nguyễn Trường Giang",
+      "gender": "Nam",
+      "email": "giangnt@gmail.com",
+      "dateBirth": "22/08/2001",
+      "address": "Hà Nội",
+      "position": "Seller",
+      "phone": "0948083535",
+      "password": "123456",
+      "image": "https://tc.cdnchinhphu.vn/Uploaded/phanthugiang/2020_03_05/hhh.jpg"
+    },
+    {
+      "name": "son",
+      "phone": "123",
+      "email": "sonndc@gmail.com",
+      "address": "HN",
+      "password": "$2a$10$nsfTJeOnjW7A7RaJlXEp2.qiYlTiWydiB0WhysAZXQHGtUrT2mPB2",
+      "gender": "",
+      "id": 4,
+      "image": "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/401856221_1652732128549938_200226400333569024_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGvTDblq1uB5hj2TeXvtSASSmxntfBH-F9KbGe18Ef4X8_xJc0oH_TmoMJpeTdoLVk87XhhdqFpl56cAr3KotBQ&_nc_ohc=46HflysxKSgAX_aFUNr&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBXyyNCr-AaQT4oM61TPB0knAwryGGNPF87UhHihGPLQA&oe=65F4227F"
+    },
+    {
+      "name": "john",
+      "phone": "123456789",
+      "email": "john@gmail.com",
+      "address": "lll",
+      "password": "$2a$10$2B6M0CAj1CdCUohmst2qk.tWLVYCcoF9cxkpiJx6NM7YTZxvfuTmW",
+      "gender": "",
+      "id": 5,
+      "image": "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/401856221_1652732128549938_200226400333569024_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGvTDblq1uB5hj2TeXvtSASSmxntfBH-F9KbGe18Ef4X8_xJc0oH_TmoMJpeTdoLVk87XhhdqFpl56cAr3KotBQ&_nc_ohc=46HflysxKSgAX_aFUNr&_nc_ht=scontent.fhan17-1.fna&oh=00_AfBXyyNCr-AaQT4oM61TPB0knAwryGGNPF87UhHihGPLQA&oe=65F4227F"
+    },
+    {
+      "name": "hiếu ",
+      "phone": "123456789",
+      "email": "hieudt@gmail.com",
+      "address": "Đống đa, Hà nội",
+      "password": "$2a$10$1o2nyQDpjYeiusgnEDyxpOwvgSYDFRbZ.NcDnAUmoMNTvZDkr45bu",
+      "gender": "",
+      "image": "",
+      "id": 6
+    },
+    {
+      "name": "Nguyễn Huy Hoàng",
+      "phone": "0123456789",
+      "email": "hoangxe0124@gmail.com",
+      "address": "Đống Đa, Hà Nội",
+      "password": "$2a$10$CMF.T5n3umzGfQ4K55tdL.NNDXRCV/6r9iLGMyx6xtuD9SEnWHYIC",
+      "gender": "",
+      "image": "",
+      "id": 7
+    },
+    {
+      "name": "test01",
+      "phone": "0123456789",
+      "email": "test01@gmai.com",
+      "address": "aaaaaaaaaaaa",
+      "password": "$2a$10$WJEuFs8.z.eZid7kjqcVmeWWBwTpu2xNOkyx9D5k.QMzB6sIIV6Nq",
+      "gender": "",
+      "image": "",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
