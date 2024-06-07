@@ -15,7 +15,8 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Divider from "@mui/material/Divider";
 import ListItemIcon from "@mui/material/ListItemIcon";
-import { Logout, PersonAdd, Settings } from "@mui/icons-material";
+import { Logout } from "@mui/icons-material";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import Cookies from "js-cookie";
 
 const Account = () => {
@@ -36,6 +37,9 @@ const Account = () => {
     await Cookies.remove("userId");
     dispatch(handleUserLogout());
     navigate("/login");
+  };
+  const handleMyAccount = () => {
+    navigate("/account");
   };
 
   return (
@@ -136,30 +140,31 @@ const Account = () => {
             transformOrigin={{ horizontal: "right", vertical: "top" }}
             anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
           >
-            <MenuItem>
-              <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> Profile
+            <MenuItem onClick={handleMyAccount}>
+              <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> Thông tin tài
+              khoản
             </MenuItem>
             <MenuItem>
-              <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> My account
+              <Avatar sx={{ width: 28, height: 28, mr: 2 }} /> Đơn hàng của tôi
             </MenuItem>
             <Divider />
             <MenuItem>
               <ListItemIcon>
-                <PersonAdd fontSize="small" />
+                <SupportAgentIcon fontSize="small" />
               </ListItemIcon>
-              Add another account
+              Trung tâm hộ trợ
             </MenuItem>
-            <MenuItem>
+            {/* <MenuItem>
               <ListItemIcon>
                 <Settings fontSize="small" />
               </ListItemIcon>
               Settings
-            </MenuItem>
+            </MenuItem> */}
             <MenuItem onClick={handleLogout}>
               <ListItemIcon>
                 <Logout fontSize="small" />
               </ListItemIcon>
-              Logout
+              Đăng xuất
             </MenuItem>
           </Menu>
         </Box>

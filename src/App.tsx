@@ -12,6 +12,7 @@ import ChildRecipePage from "./pages/NewsPage/ChildRecipePage";
 import LogInForm from "./pages/Auth/LogIn";
 import RegisterForm from "./pages/Auth/Register";
 import AdminPage from "./pages/Admin";
+import MyAccount from "./pages/Component/Acccount/MyAccount";
 function App() {
   return (
     <Routes>
@@ -27,6 +28,7 @@ function App() {
         <Route path="/register" element={<RegisterForm />} />
         <Route path="/admin" element={<AdminPage />} />
         <Route path="/about" element={<IntroductPage />} />
+        <Route path="/account" element={<MyAccount />} />
       </Route>
     </Routes>
   );
