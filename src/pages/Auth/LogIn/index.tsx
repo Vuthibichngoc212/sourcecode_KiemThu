@@ -94,16 +94,16 @@ const LogInForm = () => {
             bcrypt.compareSync(inputValue.password, result.password)
           ) {
             setErrMessEmail("");
-            setTimeout(() => {
-              navigate("/");
-              dispatch(
-                handleUserLogin({
-                  email: inputValue.email,
-                  password: inputValue.password,
-                  image: result.image,
-                })
-              );
-            }, 1000);
+
+            navigate("/");
+            dispatch(
+              handleUserLogin({
+                email: inputValue.email,
+                password: inputValue.password,
+                image: result.image,
+              })
+            );
+
 
             toast.success("Đăng nhập thành công!", {
               autoClose: 2000,
@@ -120,7 +120,6 @@ const LogInForm = () => {
       }
     }
   };
-
   return (
     <ThemeProvider theme={defaultTheme}>
       <ToastContainer />
@@ -202,6 +201,8 @@ const LogInForm = () => {
                 label="Remember me"
               />
               <Button
+                id="submitSignIn"
+                data-testid="submitSignIn"
                 type="submit"
                 fullWidth
                 variant="contained"
@@ -216,7 +217,9 @@ const LogInForm = () => {
                   </NavLink>
                 </Grid>
                 <Grid item>
-                  <NavLink style={{ color: "#009688" }} to="/register">
+                  <NavLink
+                    id="signUpAccount"
+                    style={{ color: "#009688" }} to="/register">
                     {"Don't have an account? Sign Up"}
                   </NavLink>
                 </Grid>

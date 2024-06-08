@@ -16,6 +16,8 @@ import { useState } from "react";
 import { IUser } from "~/interfaces/user";
 import { regx } from "../config";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import {
   useGetUsersQuery,
   useSignUpUserMutation,
@@ -26,6 +28,7 @@ import bcrypt from "bcryptjs";
 const RegisterForm = () => {
   const defaultTheme = createTheme();
   const { data } = useGetUsersQuery();
+  const navigate = useNavigate();
   const [addUser] = useSignUpUserMutation();
   const [inputValue, setInputValue] = useState<IUser>({
     name: "",
@@ -63,7 +66,12 @@ const RegisterForm = () => {
           gender: inputValue.gender,
           image: "",
         });
-        alert("success!");
+        navigate("/");
+        toast.success("Đăng kí thành công!", {
+          autoClose: 2000,
+          position: "bottom-right",
+          theme: "light",
+        });
       } else {
         setErrMessageEmail("Tài khoản đã tồn tại!");
       }
@@ -243,6 +251,7 @@ const RegisterForm = () => {
                     required
                     fullWidth
                     id="email"
+                    data-testid="email"
                     label="Email"
                     name="email"
                     autoComplete="email"
@@ -277,6 +286,7 @@ const RegisterForm = () => {
                     required
                     fullWidth
                     name="password"
+                    data-testid="password"
                     label="Mật khẩu"
                     type={showPassword ? "text" : "password"}
                     id="password"
@@ -329,6 +339,7 @@ const RegisterForm = () => {
                 </Grid>
               </Grid>
               <Button
+                id="submitSignUp"
                 type="submit"
                 fullWidth
                 variant="contained"

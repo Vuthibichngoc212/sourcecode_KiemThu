@@ -97,6 +97,7 @@ const BoardItem = ({ productValue }: IProductdata) => {
               >
                 <Typography>{item.price.toFixed(3)}₫</Typography>
                 <Button
+                  id="buttonAddToCard"
                   sx={{ mr: -2, p: 0, width: "5px" }}
                   onClick={() =>
                     handleAddToCart({

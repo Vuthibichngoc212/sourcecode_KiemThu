@@ -49,6 +49,7 @@ const ListSearch = () => {
             return (
               <TextField
                 {...params}
+                id="SearchInput"
                 label="Tìm kiếm sản phẩm..."
                 onChange={handleChangeInput}
                 InputProps={{

@@ -50,6 +50,7 @@ const Account = () => {
           }}
         >
           <NavLink
+            id="signInAccount"
             style={{
               color: "black",
               textDecoration: "none",
@@ -80,6 +81,7 @@ const Account = () => {
           >
             <Tooltip title="Account setting">
               <IconButton
+                id="profileBt"
                 onClick={handleClick}
                 size="small"
                 sx={{ ml: 2, mr: 2 }}

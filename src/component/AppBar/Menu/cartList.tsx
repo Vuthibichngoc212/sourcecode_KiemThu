@@ -180,6 +180,7 @@ const CartList = () => {
                     >
                       <Box sx={{ display: "flex", alignItems: " center" }}>
                         <Button
+                          id="minusIcon"
                           onClick={() =>
                             handleSubtractCard({
                               id: item.id,
@@ -192,6 +193,7 @@ const CartList = () => {
                         </Button>
                         <Typography> {item.quantity}</Typography>
                         <Button
+                          id="AddIcon"
                           onClick={() =>
                             handleAddCard({
                               id: item.id,
@@ -237,6 +239,7 @@ const CartList = () => {
             </Typography>
           </Box>
           <Button
+            id="payment"
             sx={{
               width: "100%",
               fontWeight: "bold",

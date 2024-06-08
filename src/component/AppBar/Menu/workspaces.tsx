@@ -27,6 +27,7 @@ const Workspaces = () => {
     <>
       <Box>
         <Button
+          id="menuIcon"
           sx={{ float: "left", cursor: "pointer" }}
           aria-controls={open ? "basic-menu" : undefined}
           aria-haspopup="true"
@@ -61,6 +62,7 @@ const Workspaces = () => {
                       style={{ width: 20, height: 20, marginRight: 5 }}
                     />
                     <NavLink
+                      id="fillerItem"
                       style={{ textDecoration: "none", color: "black" }}
                       to="/products"
                     >

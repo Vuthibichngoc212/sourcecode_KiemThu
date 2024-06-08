@@ -31,6 +31,7 @@ const ShopingCard = () => {
       <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
         <Tooltip title="Account setting">
           <IconButton
+            id="shopingCard"
             onClick={handleClick}
             size="small"
             sx={{ ml: 2 }}
